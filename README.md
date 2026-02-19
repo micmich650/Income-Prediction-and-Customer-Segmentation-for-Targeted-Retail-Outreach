@@ -52,6 +52,7 @@ Creates the cleaned dataset used by downstream models
 python scripts/data_cleaning_and_eda.py
 ```
 Output:
+
 data/processed/cleaned_dataset.csv
 
 ### Step 2 - Income Prediction Model
@@ -64,6 +65,7 @@ python scripts/income_prediction_model.py
 Outputs:
 
 models/final_income_model.pkl
+
 outputs/income_prediction_outputs/model_coefficients.csv
 
 ### Step 3 - Customer Segmentation
@@ -76,4 +78,5 @@ python scripts/segmentation_model.py
 Outputs:
 
 outputs/segmentation_outputs/cluster_labels.csv
+
 outputs/segmentation_outputs/cluster_averages.csv
