@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project develops data-driven methods to support targeted marketing outreach using U.S. Census income data. The objective is to help a retail organization identify high-income individuals and segment customers into meaningful groups for more efficient marketing strategies.
+This project develops data driven methods to support targeted marketing outreach using U.S. Census income data. The objective is to help a retail organization identify high income individuals and segment customers into meaningful groups for more efficient marketing strategies.
 
 The project includes:
 
@@ -23,7 +23,7 @@ Income-Prediction-and-Customer-Segmentation-for-Targeted-Retail-Outreach/
 │   └── segmentation_model.py
 │
 ├── notebooks/              # Development and exploratory notebooks
-├── models/                 # Saved trained models (.pkl)
+├── models/                 # Saved trained models
 ├── outputs/                # Model outputs and clustering results
 ├── report/                 # Final project report
 ├── requirements.txt
@@ -32,7 +32,7 @@ Income-Prediction-and-Customer-Segmentation-for-Targeted-Retail-Outreach/
 
 ## Notebooks
 
-The notebooks provide a step-by-step walkthrough of the project, including exploratory analysis, modeling decisions, and markdown explanations of the development process. They also contain experiments with alternative models that were evaluated before selecting the final approaches implemented in the scripts.
+The notebooks provide a step by step walkthrough of the project, including exploratory analysis, modeling decisions, and markdown explanations of the development process. They also contain experiments with alternative models that were evaluated before selecting the final approaches implemented in the scripts.
 
 
 ## Setup Instructions
@@ -70,7 +70,7 @@ outputs/income_prediction_outputs/model_coefficients.csv
 
 ### Step 3 - Customer Segmentation
 
-Generates customer clusters usibng PCA and MiniBatch K-Means
+Generates customer clusters using PCA and MiniBatch K-Means
 
 ```bash
 python scripts/segmentation_model.py
