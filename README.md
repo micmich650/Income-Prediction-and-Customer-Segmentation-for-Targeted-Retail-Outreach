@@ -30,6 +30,11 @@ Income-Prediction-and-Customer-Segmentation-for-Targeted-Retail-Outreach/
 └── README.md
 ```
 
+## Notebooks
+
+The notebooks provide a step-by-step walkthrough of the project, including exploratory analysis, modeling decisions, and markdown explanations of the development process. They also contain experiments with alternative models that were evaluated before selecting the final approaches implemented in the scripts.
+
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
@@ -44,7 +49,7 @@ cd Income-Prediction-and-Customer-Segmentation-for-Targeted-Retail-Outreach
 
 Creates the cleaned dataset used by downstream models
 ```bash
-python scripts/data_cleaning_and_eda.oy
+python scripts/data_cleaning_and_eda.py
 ```
 Output:
 data/processed/cleaned_dataset.csv
