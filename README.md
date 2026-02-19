@@ -34,10 +34,10 @@ Income-Prediction-and-Customer-Segmentation-for-Targeted-Retail-Outreach/
 
 ### 1. Clone the Repository
 
-
+```
 git clone https://github.com/micmich650/Income-Prediction-and-Customer-Segmentation-for-Targeted-Retail-Outreach.git
 cd Income-Prediction-and-Customer-Segmentation-for-Targeted-Retail-Outreach
-
+```
 ## Running the Project Pipeline
 
 ### Step 1 - Data Cleaning and Exploration
