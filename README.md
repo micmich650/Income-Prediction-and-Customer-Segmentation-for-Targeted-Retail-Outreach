@@ -43,9 +43,9 @@ cd Income-Prediction-and-Customer-Segmentation-for-Targeted-Retail-Outreach
 ### Step 1 - Data Cleaning and Exploration
 
 Creates the cleaned dataset used by downstream models
-
+```bash
 python scripts/data_cleaning_and_eda.oy
-
+```
 Output:
 data/processed/cleaned_dataset.csv
 
@@ -53,8 +53,9 @@ data/processed/cleaned_dataset.csv
 
 Trains and evaluates logistic regression classifier
 
+```bash
 python scripts/income_prediction_model.py
-
+```
 Outputs:
 
 models/final_income_model.pkl
@@ -64,8 +65,9 @@ outputs/income_prediction_outputs/model_coefficients.csv
 
 Generates customer clusters usibng PCA and MiniBatch K-Means
 
+```bash
 python scripts/segmentation_model.py
-
+```
 Outputs:
 
 outputs/segmentation_outputs/cluster_labels.csv
