@@ -5,7 +5,6 @@
 
 
 import pandas as pd
-import numpy as np
 from sklearn.cluster import MiniBatchKMeans
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer

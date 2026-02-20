@@ -1,53 +1,53 @@
-,feature,coefficient
-7,cat__education_grouped_advanced_degree,2.7471605265231362
-51,num__weeks_worked_in_year,2.593618701249005
-20,cat__major_occupation_code_Executive admin and managerial,2.4483423349472027
-24,cat__major_occupation_code_Professional specialty,1.6650471985279771
-50,num__age,1.6171380036679663
-25,cat__major_occupation_code_Sales,1.6010057696709492
-49,cat__num_persons_worked_for_employer_6,1.4998623643203854
-4,cat__class_of_worker_grouped_self employed,1.4207773617158086
-33,cat__sex_Male,1.3553470265006393
-42,cat__has_financial_activity_1,1.3341149744610525
-8,cat__education_grouped_college,1.3295722629244073
-31,cat__race_White,1.0951647411975194
-15,cat__major_industry_code_Manufacturing-durable goods,1.0672935448332703
-34,cat__ft_or_pt_grouped_fulltime,1.047850498276176
-12,cat__marital_stat_grouped_married,1.029990198189007
-18,cat__major_industry_code_other,1.0132148525040603
-37,cat__citizenship_grouped_not a citizen,1.0
-35,cat__ft_or_pt_grouped_partime,1.0
-36,cat__ft_or_pt_grouped_unemployed,1.0
-40,cat__veterans_benefits_2,1.0
-38,cat__citizenship_grouped_us citizen,1.0
-39,cat__veterans_benefits_1,1.0
-29,cat__race_Black,1.0
-43,cat__num_persons_worked_for_employer_0,1.0
-45,cat__num_persons_worked_for_employer_2,1.0
-46,cat__num_persons_worked_for_employer_3,1.0
-47,cat__num_persons_worked_for_employer_4,1.0
-48,cat__num_persons_worked_for_employer_5,1.0
-30,cat__race_Other,1.0
-0,cat__class_of_worker_grouped_federal government,1.0
-28,cat__race_Asian or Pacific Islander,1.0
-27,cat__race_Amer Indian Aleut or Eskimo,1.0
-2,cat__class_of_worker_grouped_not in universe,1.0
-1,cat__class_of_worker_grouped_local government,1.0
-23,cat__major_occupation_code_Precision production craft & repair,1.0
-3,cat__class_of_worker_grouped_private,1.0
-21,cat__major_occupation_code_Not in universe,1.0
-6,cat__class_of_worker_grouped_unemployed,1.0
-16,cat__major_industry_code_Not in universe or children,1.0
-13,cat__marital_stat_grouped_previously married,1.0
-5,cat__class_of_worker_grouped_state government,0.8944793553263067
-26,cat__major_occupation_code_other,0.8750217000124024
-44,cat__num_persons_worked_for_employer_1,0.7091647033183631
-17,cat__major_industry_code_Retail trade,0.6740697803070012
-10,cat__education_grouped_some_college,0.6666274131146125
-19,cat__major_occupation_code_Adm support including clerical,0.6626470560123694
-22,cat__major_occupation_code_Other service,0.6067754566533747
-11,cat__marital_stat_grouped_ never married,0.6022742499982009
-14,cat__major_industry_code_Education,0.5769641399759982
-41,cat__has_financial_activity_0,0.5175186598186987
-32,cat__sex_Female,0.41754072208205556
-9,cat__education_grouped_high_school_or_less,0.3581080093739704
+feature,coefficient
+cat__education_grouped_advanced_degree,2.7471605265231362
+num__weeks_worked_in_year,2.593618701249005
+cat__major_occupation_code_Executive admin and managerial,2.4483423349472027
+cat__major_occupation_code_Professional specialty,1.6650471985279771
+num__age,1.6171380036679663
+cat__major_occupation_code_Sales,1.6010057696709492
+cat__num_persons_worked_for_employer_6,1.4998623643203854
+cat__class_of_worker_grouped_self employed,1.4207773617158086
+cat__sex_Male,1.3553470265006393
+cat__has_financial_activity_1,1.3341149744610525
+cat__education_grouped_college,1.3295722629244073
+cat__race_White,1.0951647411975194
+cat__major_industry_code_Manufacturing-durable goods,1.0672935448332703
+cat__ft_or_pt_grouped_fulltime,1.047850498276176
+cat__marital_stat_grouped_married,1.029990198189007
+cat__major_industry_code_other,1.0132148525040603
+cat__citizenship_grouped_not a citizen,1.0
+cat__ft_or_pt_grouped_partime,1.0
+cat__ft_or_pt_grouped_unemployed,1.0
+cat__veterans_benefits_2,1.0
+cat__citizenship_grouped_us citizen,1.0
+cat__veterans_benefits_1,1.0
+cat__race_Black,1.0
+cat__num_persons_worked_for_employer_0,1.0
+cat__num_persons_worked_for_employer_2,1.0
+cat__num_persons_worked_for_employer_3,1.0
+cat__num_persons_worked_for_employer_4,1.0
+cat__num_persons_worked_for_employer_5,1.0
+cat__race_Other,1.0
+cat__class_of_worker_grouped_federal government,1.0
+cat__race_Asian or Pacific Islander,1.0
+cat__race_Amer Indian Aleut or Eskimo,1.0
+cat__class_of_worker_grouped_not in universe,1.0
+cat__class_of_worker_grouped_local government,1.0
+cat__major_occupation_code_Precision production craft & repair,1.0
+cat__class_of_worker_grouped_private,1.0
+cat__major_occupation_code_Not in universe,1.0
+cat__class_of_worker_grouped_unemployed,1.0
+cat__major_industry_code_Not in universe or children,1.0
+cat__marital_stat_grouped_previously married,1.0
+cat__class_of_worker_grouped_state government,0.8944793553263067
+cat__major_occupation_code_other,0.8750217000124024
+cat__num_persons_worked_for_employer_1,0.7091647033183631
+cat__major_industry_code_Retail trade,0.6740697803070012
+cat__education_grouped_some_college,0.6666274131146125
+cat__major_occupation_code_Adm support including clerical,0.6626470560123694
+cat__major_occupation_code_Other service,0.6067754566533747
+cat__marital_stat_grouped_ never married,0.6022742499982009
+cat__major_industry_code_Education,0.5769641399759982
+cat__has_financial_activity_0,0.5175186598186987
+cat__sex_Female,0.41754072208205556
+cat__education_grouped_high_school_or_less,0.3581080093739704

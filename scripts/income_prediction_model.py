@@ -5,18 +5,13 @@
 
 
 import pandas as pd
-import numpy as np
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split
 from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import classification_report, precision_score, recall_score, roc_auc_score
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import classification_report, roc_auc_score
 from imblearn.pipeline import Pipeline
-from imblearn.over_sampling import RandomOverSampler
-from imblearn.under_sampling import RandomUnderSampler
 from math import exp
-import matplotlib.pyplot as plt
 import pickle
 
 
@@ -103,7 +98,7 @@ def main():
     print('Top features decreasing odds of >50K (lowest odds ratios):')
     print(coef_df_sorted.tail(3))
     print("Saving All Coefficients to outputs/income_prediction_outputs/model_coefficients.csv")
-    coef_df_sorted.to_csv('outputs/income_prediction_outputs/model_coefficients.csv')
+    coef_df_sorted.to_csv('outputs/income_prediction_outputs/model_coefficients.csv', index = False)
     with open("models/final_income_model.pkl", "wb") as f:
         pickle.dump(pipe_final, f)
 
